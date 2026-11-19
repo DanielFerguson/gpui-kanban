@@ -1,0 +1,19 @@
+[package]
+name = "gpui-kanban"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# runtime_shaders: compile Metal shaders at launch, so the separate
+# Xcode "Metal Toolchain" download is not needed to build.
+gpui = { version = "0.2.2", features = ["runtime_shaders"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+dirs = "6"
+fastrand = "2"
+
+[dev-dependencies]
+# test-support: GPUI's headless test harness (TestAppContext, simulated input).
+gpui = { version = "0.2.2", features = ["runtime_shaders", "test-support"] }
+proptest = "1"
+tempfile = "3"

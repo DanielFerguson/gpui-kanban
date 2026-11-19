@@ -1,0 +1,9 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc fc5079ebc66f36f53873f8f901c3cfbaaac16ed13bb9d161a0c3c88cf43fc64f # shrinks to cards = 2, seed = 7133540949417262786, damage = [(Index(3675981608891396156), 48)]
+cc 04670318e869177c181fe82e954da3b5443fc32bce559a43567fbc58cd5bc41c # shrinks to cards = 5, seed = 2484078326096285452, cut = Index(5960175791182407631)
+cc 78d50f1582ea3659ba2d9c33da6b631623400a8f566403101861f5b7d02ab7ac # shrinks to bytes = [2, 110, 133, 152, 158, 146, 0, 180, 70, 252, 80, 77, 211, 13, 59, 253, 167, 30, 12, 174, 80, 241, 228, 185, 97, 2, 174, 122, 96, 91, 220, 11, 138, 22, 101, 251, 51, 229, 223, 166, 228, 117, 125, 248, 92, 191, 85, 119, 62, 50, 159, 193, 255, 177, 224, 152, 111, 89, 22, 71, 171, 74, 124, 192, 153, 202, 64, 87, 24, 82, 203, 211, 135, 167, 89, 77, 31, 219, 222, 176, 143, 225, 195, 78, 194, 85, 142, 129, 86, 104, 35, 158, 209, 107, 129, 142, 25, 39, 191, 208, 50, 158, 95, 92, 193, 13, 140, 6, 206, 221]
